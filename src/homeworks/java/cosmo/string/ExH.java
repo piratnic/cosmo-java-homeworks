@@ -9,7 +9,22 @@ package homeworks.java.cosmo.string;
  */
 public class ExH {
     public static void main(String[] args) {
-        String fullName = "Носов Алексей Олегович";
+        String b = "Носов Алексей Олегович";
+
+        String[] a = b.split(" ");
+
+        String c = a[0];
+        String g = a[1];
+        String h = a[2];
+
+        char q = c.charAt(0);
+        char w = g.charAt(0);
+        char e = h.charAt(0);
+
+        String u = (q + "." + w + "." + e + ".");
+
+
+        System.out.println(u);
 
     }
 }
